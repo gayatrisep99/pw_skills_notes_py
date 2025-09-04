@@ -1,0 +1,113 @@
+# Basics of Programming 
+
+### Server : 
+- Powerful computers that store data, runs programs & deliver information to other computers(user) over internet.
+
+### Cloud :  
+- The cloud simply means using internet to store data or run programs rather than using your own computer.
+
+### Cloud Computing : 
+- Using computing services( like storage, software and processing power) over internet instead of using it on your own computer.
+
+Key Concept :
+
+- Scale up & scale down according to requirement.
+
+* Significance : 
+
+- Cost saving (no upfront cost for hardware , rent infrastructure insted of buying Servers)
+
+- Top 10 cloud :
+- AWS, Azure, Alibaba cloud , Google cloud,  Salesforce, Dell, IBM.
+
+### Cloud Services Model :
+- Deliver software application over the internet , fully managed by provider.
+
+- Three main model of cloud services :
+
+1. laas(infrastructure as a service): Provide virtual machines, storage & networking on rent. 
+    - Amazon EC2, VM, Microsoft Azure.
+    - Use when we need basic IT services like storage, servers and networking.
+
+2.  Paas(Platform as a service): Provide a readymade platform with tools, database and runtime no server managment needed.
+
+    - Google app engine, Azure App services, Heroku.
+    - Used by developer to build, test and deploy apps easily.
+
+3. Saas(Software as service) : Provide complete software directly through the Web. 
+    - Gmail, Google docs, Dropbox, Netflix.
+    - Use by end user to access readymade apps via internet.
+
+
+#### Memory map:
+ - Iaas(): Rent Hardware, 
+ - Paas(): Build apps
+ - Saas() : Use apps    
+
+ ### How coputer & programming language works : 
+
+ - CPU Execute instructions (perform logic and calculation)
+
+ #### Memory Types :
+
+ - Primary Memory :
+
+   1. RAM: 
+    - Temporarily stores data and program 
+    - Volatile(RAM is initialize when we restart the computer)
+
+
+
+
+   2. ROM: 
+    - Stores essential programs like(BIOS/ Firmware)
+    - Runs essential program to load operating system 
+    - Nonvolatile
+
+    3. SSD : 
+     - Flash memory
+    
+    4. HDD : 
+     - Magnetic disk
+
+    5. USB:
+     - Flash memory
+
+
+
+#### High Level Programming Language : 
+
+- Language are easy to write code by humans 
+    - python, java, c++.
+
+
+
+#### Low level language :
+ - Machine level language that is close to machine code gives direct control over hardware.
+    - Binary, assembly,
+
+Tools to use translate HLPL TO LLPL :
+1. Interpreter :
+
+- Translate and execute code line by line, during runtime.
+    - Python, JavaScript, Ruby.
+    - Slow, error handling at a time 
+
+
+
+2. Compiler : 
+- Translate entire program into machine code before execution  
+ - Detect all error at once C, C++, Rust, Go 
+ - Create separate execute files
+
+### How python code executes :
+
+- Write python code in .py files 
+- Interpreter compiles into bytecode --> .pyc files.
+- This bytecode is executed by python virtual machine(PVM)
+
+ - So python is Compiled to bytecode.
+ - Them interpreted by PVM .
+  - That's why python often called Compiled-interpreted language. 
+
+  
